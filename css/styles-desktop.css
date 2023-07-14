@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.result-summary-component {
+    max-width: 70rem;
+    display: flex;
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem var(--dark-gray-blue-low-opacity);
+}
+
+.main-info {
+    min-width: 30rem;
+    margin: 0;
+    border-radius: 3rem;
+}
+
+.main-info__paragraph {
+    display: inline-block;
+    width: 22rem;
+}
+
+.summary-info {
+    min-width: 40rem;
+}
